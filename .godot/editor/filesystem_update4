@@ -1,0 +1,6 @@
+res://scene_a.tscn
+res://Autoload/scene_a.tscn
+res://Resources/scene_data.gd
+res://Resources/scene_c.tres
+res://Resources/scene_c.tscn
+res://Autoload/scene_a.gd

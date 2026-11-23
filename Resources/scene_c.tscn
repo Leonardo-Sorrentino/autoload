@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bvnvt7axkkq5h"]
+
+[node name="SceneC" type="Panel" unique_id=362800126]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=926990282]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 76.0
+offset_right = 343.0
+offset_bottom = 121.0
+text = "This is scene C"

@@ -1,0 +1,13 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1795430549
+icon.webp::CompressedTexture2D::1801438355636159559::1795430415::1795430473::1::::<><><>0<>0<>24b414e66225f73522adf7b97a8e05d4<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
+README.md::TextFile::-1::1795430415::0::1::::<><><>0<>0<><>::
+::res://Autoload/::1795430535
+global.gd::GDScript::3483387431760482919::1795430415::0::1::::<>Node<><>0<>0<><>::
+scene_a.gd::GDScript::2929886761550308356::1795430415::0::1::::<>Panel<><>0<>0<><>::
+scene_a.tscn::PackedScene::2223704855828123746::1795431470::0::1::::<><><>0<>0<><>::uid://bh0i2o1o0pkau::::res://Autoload/scene_a.gd
+scene_b.gd::GDScript::1683593778427275905::1795430415::0::1::::<>Panel<><>0<>0<><>::
+scene_b.tscn::PackedScene::5657977284919684244::1795430535::0::1::::<><><>0<>0<><>::uid://x8ssql4sixv2::::res://Autoload/scene_b.gd
+::res://Resources/::1795430549
+scene_c.tres::Resource::2765914532159199788::1795431486::0::1::::<><><>0<>0<><>::
+scene_data.gd::GDScript::1887168975027230280::1795431470::0::1::::<>Resource<><>0<>0<><>::

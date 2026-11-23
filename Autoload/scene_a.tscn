@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://6xgdg1bmya7c"]
+
+[ext_resource type="Script" uid="uid://bh0i2o1o0pkau" path="res://Autoload/scene_a.gd" id="1_rr7bi"]
+[ext_resource type="Resource" uid="uid://bfn3hcyv6ubsu" path="res://Resources/scene_c.tres" id="2_rlsun"]
+
+[node name="SceneA" type="Panel" unique_id=512963103]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 2
+size_flags_vertical = 2
+script = ExtResource("1_rr7bi")
+scene_c_path = ExtResource("2_rlsun")
+
+[node name="Label" type="Label" parent="." unique_id=1479796765]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 48.0
+offset_right = 104.0
+offset_bottom = 62.0
+size_flags_vertical = 0
+text = "This is scene A."
+
+[node name="GoToSceneB" type="Button" parent="." unique_id=399399478]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 128.0
+offset_right = 277.0
+offset_bottom = 182.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+theme_override_colors/font_color = Color(0.945098, 1, 0.556863, 1)
+theme_override_font_sizes/font_size = 24
+text = "Go to Scene B"
+
+[node name="GoToSceneC" type="Button" parent="." unique_id=301538029]
+layout_mode = 0
+offset_left = 69.0
+offset_top = 218.0
+offset_right = 282.0
+offset_bottom = 272.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+theme_override_colors/font_color = Color(0.945098, 1, 0.556863, 1)
+theme_override_font_sizes/font_size = 24
+text = "Go to Scene C"
+
+[connection signal="pressed" from="GoToSceneB" to="." method="_on_goto_scene_pressed"]
+[connection signal="pressed" from="GoToSceneC" to="." method="_on_go_to_scene_c_pressed"]
